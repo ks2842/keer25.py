@@ -1,0 +1,5 @@
+x,y,e=map(int,input().split())
+x=int(x)
+y=int(y)
+e=int(e)
+print(int((x*y)/e))
