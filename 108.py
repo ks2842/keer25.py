@@ -1,0 +1,6 @@
+m,n=input().split()
+m=int(m)
+n=int(n)
+n=list(map(int,input().split()))
+n.sort()
+print(n[n-1])
